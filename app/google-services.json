@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "367910505100",
+    "firebase_url": "https://consultk-b6fe0.firebaseio.com",
+    "project_id": "consultk-b6fe0",
+    "storage_bucket": "consultk-b6fe0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367910505100:android:e8a6e4be46d81f99ce09a9",
+        "android_client_info": {
+          "package_name": "com.ephraim.me.consultk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367910505100-v0ughmni347rhokpccp2gvat1vkpqj4i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ephraim.me.consultk",
+            "certificate_hash": "1aad7e07ed4381298f8f5a1e335d008347e1332d"
+          }
+        },
+        {
+          "client_id": "367910505100-f8cc1a0d3u801vgtfmegs22stb9jreqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnD4P0q7KQQevKDMZje2r_LvsY3E0pdQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367910505100-f8cc1a0d3u801vgtfmegs22stb9jreqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

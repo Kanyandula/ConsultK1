@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGrey">
+
+
+        <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:padding="10dp"
+                android:id="@+id/relLayout1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/broadcast_a_message"
+                    android:textSize="18sp"
+                    android:textColor="@color/Black"
+                    android:id="@+id/broadcast_title"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/relLayout2"
+                    android:layout_below="@id/broadcast_title">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/select_departments"
+                        android:textSize="15sp"
+                        android:id="@+id/broadcast_departments"
+                        android:layout_marginTop="10dp"
+                        android:paddingTop="7dp"
+                        android:paddingBottom="7dp"
+                        android:background="@drawable/white_onclick_grey"
+                        android:layout_toStartOf="@+id/add_department"
+                        android:layout_marginEnd="10dp"/>
+
+
+                    <Button
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/add_department"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/white_onclick_grey"
+                        android:text="@string/add"
+                        android:layout_marginEnd="5dp"
+                        android:textSize="12sp"/>
+
+                </RelativeLayout>
+
+
+                <EditText
+                    android:id="@+id/input_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relLayout2"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/grey_border"
+                    android:gravity="start"
+                    android:hint="@string/message_title"
+                    android:inputType="text"
+                    android:maxLines="4"
+                    android:minLines="1"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:textSize="14sp"
+                    android:autofillHints="" />
+
+                <EditText
+                    android:id="@+id/input_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/input_title"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/grey_border"
+                    android:gravity="start"
+                    android:hint="@string/your_message"
+                    android:inputType="text"
+                    android:maxLines="15"
+                    android:minLines="4"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="10dp"
+                    android:textSize="14sp"
+                    android:autofillHints="" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/send"
+                    android:id="@+id/btn_send_message"
+                    android:layout_below="@+id/input_message"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/grey_border"
+                    android:layout_marginTop="5dp"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relLayout3"
+                android:layout_below="@+id/relLayout1"
+                android:layout_marginTop="15dp"
+                android:background="@color/lightGrey">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/employees"
+                    android:textSize="18sp"
+                    android:textColor="@color/Black"
+                    android:id="@+id/employees_title"
+                    android:background="@color/White"
+                    android:padding="10dp"/>
+
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/recyclerView"
+                    android:scrollbars="vertical"
+                    android:layout_below="@+id/employees_title"
+                    android:nestedScrollingEnabled="true"
+                    >
+                    </androidx.recyclerview.widget.RecyclerView>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+
+
+</RelativeLayout>

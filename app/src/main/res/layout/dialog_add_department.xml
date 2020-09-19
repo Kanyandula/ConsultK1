@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_department"
+        android:textSize="21sp"
+        android:textColor="@color/Black"
+        android:id="@+id/dialogTitle"/>
+
+    <EditText
+        android:id="@+id/input_new_department"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialogTitle"
+        android:layout_marginTop="15dp"
+        android:hint="@string/example_human_resources"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="@color/Black"
+        android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/linkBlue"
+            android:text="@string/confirm"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="30dp"
+            android:id="@+id/dialogConfirm"
+            android:layout_below="@+id/input_new_department"/>
+
+
+</RelativeLayout>
