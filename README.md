@@ -1,5 +1,7 @@
 # ConsultK1 Project Management App
 
+<img height="400px" src="https://user-images.githubusercontent.com/37294453/108572744-e1cb5b00-730a-11eb-8f61-2aeac583a5fc.jpg" /> | <img height="400px" src="https://user-images.githubusercontent.com/37294453/108572747-e263f180-730a-11eb-900b-de29a632ef35.jpg" /> | <img height="400px" src="https://user-images.githubusercontent.com/37294453/108572748-e3951e80-730a-11eb-91a3-d982375c8022.jpg" /> | <img height="400px" src="https://user-images.githubusercontent.com/37294453/108572755-e5f77880-730a-11eb-866e-ae0d8079e85f.jpg" /> |<img height="400px" src="https://user-images.githubusercontent.com/37294453/108572757-e7c13c00-730a-11eb-9092-a24bde580bf3.jpg" />
+
 This app was disigned with the idea of Jira in mind , it is used to report isues ,bug tracking, assign projects to employees, and chat forums for different departments.
 
 ## Features:
